@@ -17,22 +17,25 @@ Node *del_linked(Node *h)
 	    {
 		h = h->next;
 		free(p);
-		return h;
+		return H;
             }
 	    p = h;
 	    h = h->next;
-		if (h->data == t)
+	    if(h == NULL)
+	    {
+		printf("no this number in this linked\n");	
+		return H;
+	    }
+	    else if (h->data == t)
 		{
 			p->next = h->next;
 			free(h);
-			h = H;
-			return h;
+			return H;
 		
 		
 		}
 	    
 	
-	}	
-
+	}
 
 }
