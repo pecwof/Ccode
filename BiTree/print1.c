@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Head.h"
-void print1(root->lchild, root->rchild)
-{
-	
-
-}
-
-
 void print(BiNode *root)
 {
     if (root == NULL)

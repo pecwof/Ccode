@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Head.h"
+int Depth(BiNode *root)
+{
+	if(root == NULL)
+	    return 0;
+	int lh = Depth(root->lchild);
+	int rh = Depth(root->rchild);
+
+	return (lh>rh?lh:rh)+1;
+
+}
+creat_BiTree.c
+creat_BiTree.c
+总用量 60
+drwxr-xr-x 3 free free  4096 12月 11 14:46 .
+drwxr-xr-x 5 free free  4096 12月 10 19:28 ..
+-rwxr-xr-x 1 free free 17008 12月 11 14:44 a.out
+-rw-r--r-- 1 free free  1096 12月 10 16:21 creat_BiTree.c
+-rw-r--r-- 1 free free   207 12月 11 14:38 Depth.c
+-rw-r--r-- 1 free free   303 12月 11 14:30 Head.h
+-rw-r--r-- 1 free free   194 12月 11 14:32 main.c
+-rw-r--r-- 1 free free  1523 12月 11 14:44 merge.c
+-rw-r--r-- 1 free free   186 12月 11 14:39 print1.c
+-rw-r--r-- 1 free free   237 12月 11 14:49 shishi
+drwxr-xr-x 2 free free  4096 12月 11 14:31 useless

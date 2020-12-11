@@ -13,7 +13,7 @@ typedef struct binode
 BiNode *creat_BiTree(BiNode *root);
 BiNode *add_Binode(BiNode *root,ElemType x);
 void print(BiNode *root);
-
+int Depth(BiNode *root);
 
 
 

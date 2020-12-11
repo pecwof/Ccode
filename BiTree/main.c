@@ -7,6 +7,7 @@ int main()
 	root = creat_BiTree(root);
 	print(root);	
 	printf("\n");
-
+	int d = Depth(root);
+	printf("%d\n",d);
 }
 
