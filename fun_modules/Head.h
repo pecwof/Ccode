@@ -12,4 +12,5 @@ Node* del_linked(Node *h);
 Node* rank_linked(Node *h);
 Node* creat_linked(Node *h);
 int print_linked(Node *p);
+int inversion(int x);
 #endif
