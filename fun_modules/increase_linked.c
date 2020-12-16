@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "Head.h"
 
-Node *add_node(Node *h)
+Node *increase_linked(Node *h)
 {
 	ElemType t;
 	while (1)

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "Head.h"
-Node* creat_linked(Node *h)
+Node* creat_linked1(Node *h)
 {
 	ElemType t;
 	printf("*******************************\n");
